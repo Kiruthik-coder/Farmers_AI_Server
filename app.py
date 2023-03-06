@@ -9,6 +9,7 @@ app = Flask(__name__)
      
 
 # Load the TFLite model
+# ----
 path = "mobilenetv2.tflite"
 interpreter = tf.lite.Interpreter(model_path=path)
 interpreter.allocate_tensors()
