@@ -1,9 +1,3 @@
-from flask import Flask, request, jsonify
-import tensorflow as tf
-# from flask_restful import Resource, Api, reqparse
-import werkzeug
-import numpy as np
-import cv2
 
 app = Flask(__name__)
      
