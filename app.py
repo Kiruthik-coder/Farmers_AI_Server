@@ -1,4 +1,15 @@
+from flask_restful import Resource, Api, reqparse
+import werkzeug
+import numpy as np
+import cv2
 
+app = Flask(__name__)
+     
+
+# Load the TFLite model
+# --------
+path = "mobilenetv2.tflite"
+interpreter = tf.lite.Interpreter(model_path=p
 app = Flask(__name__)
      
 
